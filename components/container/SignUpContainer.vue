@@ -2,7 +2,7 @@
     <div>
       <div class="col-lg-7">
         <div class="text-left bg-white signup-panel">
-          <h1 class="text-2xl font-bold text-center text-blue-900 display-6">
+          <h1 class="text-2xl font-bold text-center text-[#080A3C]">
             Let's get Started!
           </h1>
           <br>

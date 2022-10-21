@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="relative w-full shadow-lg bg-slate-900 py-9"
+    class="relative w-full shadow-lg py-9 bg-[#080A3C]"
   >
     <div
       class="justify-between w-full px-6 font-bold text-center"

@@ -46,7 +46,7 @@
         <br/>
         <br/>
         <div class="flex items-center justify-center">
-          <p>Already have an account? <a class="text-blue-700 hover:text-sky-400 hover:underline"  href="">Sign in</a></p>
+          <p>Already have an account? <a class="text-blue-700 hover:text-sky-400 hover:underline"  href="" @click="">Sign in</a></p>
         </div>
       </SignUpContainer>
     </div>
@@ -75,6 +75,11 @@ export default {
     NavBar,
    
   },
+  methods:{
+    goto(){
+      this.$router.push("path")
+    }
+  }
 };
 </script>
 
