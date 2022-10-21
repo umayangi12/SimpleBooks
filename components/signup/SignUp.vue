@@ -24,7 +24,7 @@
 
      
         <label for="phoneNumber">Phone Number</label>
-        <PNInput class="mt-2 text-secondary"></PNInput>
+        <PNInput class="mt-2 text-secondary"  placeholder="00 00 00 000"></PNInput>
 
    
         <div class="form-group">
@@ -62,6 +62,7 @@ import PasswordInput from "../../components/inputs/PasswordInput.vue";
 import GoogleBtn from "../../components/buttons/GoogleBtn.vue";
 import SubmitBtn from "../../components/buttons/SubmitBtn.vue";
 import NavBar from "../../components/container/NavBar.vue"
+
 export default {
   components: {
     NameInput,
@@ -72,6 +73,7 @@ export default {
     GoogleBtn,
     SubmitBtn,
     NavBar,
+   
   },
 };
 </script>
