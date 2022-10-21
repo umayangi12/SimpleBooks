@@ -2,7 +2,7 @@
   <div class="w-full form-group">
     <input
       type="email"
-      class="w-full px-3 py-1 bg-blue-100 border border-blue-200 rounded w-100 focus:outline-none focus:border-teal-800"
+      class="flex px-3 pt-2 border border-blue-200 rounded bg-blue-50 w-100 focus:outline-none focus:border-teal-800 h-11 w-96"
       :placeholder="placeholder"
     />
   </div>
@@ -10,11 +10,11 @@
 
 <script>
 export default {
-    props: {
-        placeholder: {
-            type: String,
-            default:''
-        }
-    }
-}
+  props: {
+    placeholder: {
+      type: String,
+      default: "",
+    },
+  },
+};
 </script>

@@ -3,16 +3,12 @@
     <div class="relative">
       <input
         type="password"
-        class="w-full px-4 py-1 bg-blue-100 border border-blue-200 rounded focus:outline-none focus:border-teal-800"
+        class="px-3 pt-2 border border-blue-200 rounded bg-blue-50 focus:outline-none focus:border-teal-800 h-11 w-96"
       />
-      
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  
-}
-
+export default {};
 </script>

@@ -1,9 +1,8 @@
 <template>
   <center>
-     <NavBar></NavBar>
-    <div class ="max-w-3xl px-4 mx-auto mb-3 my-25 ">
+    <NavBar></NavBar>
+    <div class="max-w-3xl px-4 mx-auto mb-3 my-25">
       <SignUpContainer>
-        
         <div class="flex space-x-4">
           <div>
             <label for="firstName">First Name</label>
@@ -22,36 +21,42 @@
           placeholder="example@gmail.com"
         ></EmailInput>
 
-     
         <label for="phoneNumber">Phone Number</label>
-        <PNInput class="mt-2 text-secondary"  placeholder="00 00 00 000"></PNInput>
+        <PNInput
+          class="mt-2 text-secondary"
+          placeholder="00 00 00 000"
+        ></PNInput>
 
-   
         <div class="form-group">
           <label for="password">Password</label>
           <PasswordInput class="mt-2 text-secondary"></PasswordInput>
         </div>
-        <br />
-        <br />
-        <br />
         <div class="gap-y-4">
           <SubmitBtn></SubmitBtn>
           <br />
-          <div class="mt-4 bg-white rounded-lg shadow-md">
-            <div class="h-1 bg-gray-400 rounded-t-md"></div>
+          <div class="inline-flex items-center justify-center w-full">
+            <hr class="h-px my-8 bg-gray-400 border-0 w-96" />
+            <span
+              class="absolute px-3 font-sans font-medium text-gray-500 -translate-x-1/2 bg-white left-1/2 dark:text-gray-600"
+              >Or</span
+            >
           </div>
-          <br />
           <GoogleBtn></GoogleBtn>
         </div>
-        <br/>
-        <br/>
-        <div class="flex items-center justify-center">
-          <p>Already have an account? <a class="text-blue-700 hover:text-sky-400 hover:underline"  href="" @click="">Sign in</a></p>
+        <div class="flex items-center justify-center mt-4 ml-24">
+          <p>
+            Already have an account?
+            <a
+              class="cursor-pointer  hover:text-sky-400 hover:underline text-[#3C5CCF]"
+              @click="goto"
+              >Sign in</a
+            >
+          </p>
         </div>
       </SignUpContainer>
     </div>
   </center>
- </template>
+</template>
 
 <script>
 import NameInput from "../../components/inputs/NameInput.vue";
@@ -61,7 +66,7 @@ import PNInput from "../../components/inputs/PNInput.vue";
 import PasswordInput from "../../components/inputs/PasswordInput.vue";
 import GoogleBtn from "../../components/buttons/GoogleBtn.vue";
 import SubmitBtn from "../../components/buttons/SubmitBtn.vue";
-import NavBar from "../../components/container/NavBar.vue"
+import NavBar from "../../components/container/NavBar.vue";
 
 export default {
   components: {
@@ -73,13 +78,12 @@ export default {
     GoogleBtn,
     SubmitBtn,
     NavBar,
-   
   },
-  methods:{
-    goto(){
-      this.$router.push("path")
-    }
-  }
+  methods: {
+    goto() {
+      this.$router.push("/login");
+    },
+  },
 };
 </script>
 

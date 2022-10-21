@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    class="bg-white text-justify flex items-center justify-center text-black h-10 px-2 font-semibold rounded active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in transition-all w-full border-black outline outline-offset-1 outline-1 "
+    class="bg-white text-justify flex items-center justify-center text-black font-semibold rounded active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in transition-all border-black outline outline-offset-1 outline-1 mt-4 h-12 w-96 px-3"
   >
     <svg
       class="w-4 h-4 mr-2 fill-current"
