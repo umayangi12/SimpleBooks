@@ -1,7 +1,7 @@
 <template>
   <center>
      <NavBar></NavBar>
-    <div class ="max-w-3xl px-4 mx-auto my-32 mb-6 ">
+    <div class ="max-w-3xl px-4 mx-auto mb-3 my-25 ">
       <SignUpContainer>
         
         <div class="flex space-x-4">
@@ -16,7 +16,7 @@
           </div>
         </div>
 
-        <label for="email">Email Name</label>
+        <label for="email">Email Address</label>
         <EmailInput
           class="mt-2 text-secondary"
           placeholder="example@gmail.com"
@@ -46,7 +46,7 @@
         <br/>
         <br/>
         <div class="flex items-center justify-center">
-          <p>Already have an account? <a href="">Sign in</a></p>
+          <p>Already have an account? <a class="text-blue-700 hover:text-sky-400 hover:underline"  href="">Sign in</a></p>
         </div>
       </SignUpContainer>
     </div>
